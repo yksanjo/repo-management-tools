@@ -1,0 +1,28 @@
+{
+  "name": "repo-management-tools",
+  "version": "1.0.0",
+  "description": "CLI tools for managing GitHub repositories - topics, settings, and more",
+  "main": "src/index.js",
+  "bin": {
+    "gh-manage": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "github",
+    "management",
+    "cli",
+    "topics",
+    "automation"
+  ],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
